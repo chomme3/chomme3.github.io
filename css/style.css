@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 header {
-    background: #0077cc;
+    background: #0d0d0e;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -31,7 +31,7 @@ header p {
     margin-bottom: 20px;
 }
 .section h2 {
-    border-bottom: 2px solid #0077cc;
+    border-bottom: 2px solid #0d0d0e;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -43,4 +43,32 @@ header p {
 }
 .links a:hover {
     text-decoration: underline;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: bold; /* Makes the text bold */
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #575757;
+    color: #fff;
 }
