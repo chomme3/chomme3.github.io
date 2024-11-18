@@ -45,6 +45,14 @@ header p {
     text-decoration: underline;
 }
 
+.scaled-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    transform: scale(0.5); /* Scales the image to half size */
+    border-radius: 8px;
+}
+
 /* Navigation Bar Styling */
 .navbar {
     list-style-type: none;
