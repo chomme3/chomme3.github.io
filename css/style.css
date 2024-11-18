@@ -48,8 +48,7 @@ header p {
 .scaled-image {
     display: block;
     margin: 20px auto;
-    max-width: 50%;
-    transform: scale(0.5); /* Scales the image to half size */
+    width: 25%;
     border-radius: 8px;
 }
 
